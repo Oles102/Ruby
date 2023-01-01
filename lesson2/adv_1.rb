@@ -3,6 +3,7 @@
 #Вычислить дискриминант!
 #Создать условия задачи по корням !
 #Ввывести условие корней на экран!
+a = nil
 loop do
     puts 'Введите коэффициент числа "a"'
     a = gets.to_f
@@ -13,17 +14,15 @@ loop do
     b = gets.to_f
     puts 'Введите коэффициент числа "c"'
     c = gets.to_f
-    d = (b**2 - 4 * a * c).round()
+    d = (b**2 - 4 * a * c).round(1)
     puts "Дискриминант равен #{d}"
   if d > 0
-    root_1 = ((-b + Math.sqrt(d)) / (2 * a)).round()
-    root_2 = ((-b - Math.sqrt(d)) / (2 * a)).round()
+    root_1 = ((-b + Math.sqrt(d)) / (2 * a)).round(1)
+    root_2 = ((-b - Math.sqrt(d)) / (2 * a)).round(1)
     puts "Дискриминант имеет два корня равные #{root_1} и #{root_2}"
   elsif d == 0
-    root = (-b / (2 * a)).round()
+    root = (-b / (2 * a)).round(1)
     puts "Дискриминант имеет один корень равный #{root}"
   else
     puts 'Дискриминант корней не имеет'
-  end
 end
-
