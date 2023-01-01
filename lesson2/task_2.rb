@@ -8,9 +8,9 @@ loop do
     user = gets.strip 
     puts 'Введите Ваш рост!'
     height = gets.to_i
-   if (height - 110) * 1.15 > 0
+  if (height - 110) * 1.15 > 0
     puts "#{user} Ваш идеальный вес #{(height - 110) * 1.15} "
-   else (height - 110) * 1.15 <= 0 
+  else (height - 110) * 1.15 <= 0 
     puts "Ваш вес уже оптимальный"
-   end
+  end
 end
