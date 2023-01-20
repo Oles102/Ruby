@@ -19,8 +19,8 @@ loop do
 
     cart[product] = {"price" => price, "count" => count}
 end
-total_product = {}  
-cart.each {|name, value| total_product[name] = value['price'] * value['count'] }  
-total_product.each {|name, price| puts "Общая сумма за #{name} = #{price}"}
-price_sum = total_product.values.sum
+
+cart.each {|name, value| cart[name] = value['price'] * value['count'] } 
+cart.each {|name, price| puts "Общая сумма за #{name} = #{price}"}
+price_sum = cart.values.sum
 puts "Итого в корзине: #{price_sum}"
