@@ -27,7 +27,7 @@ class Animal
         puts @@animals_size
     end
 
-    def makeNoise
+    def makenoise
         puts "#{self.class} makes noise"
     end
 
@@ -52,7 +52,7 @@ class Dog < Animal
         super(food, location)
     end
 
-    def makeNoise
+    def makenoise
         puts "#{@name} makes noise"
     end
 
