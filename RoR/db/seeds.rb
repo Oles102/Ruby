@@ -12,7 +12,7 @@ CATEGORY = '/jokes/categories'.freeze
 categories = Curl.get(File.join(HOST, CATEGORY))
 
 JSON(categories.body).each do |category_name|
-  category = Category.create(name: category_name)
+  categor = Category.create(name: category_name)
 
   20.times do |n|
    Joke.create(

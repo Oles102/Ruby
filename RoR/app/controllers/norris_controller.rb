@@ -12,9 +12,9 @@ class ChuckController < ApplicationController
   end
 
   def category
-    categ = Curl.get(File.join(HOST, CATEGORY))
+    categories = Curl.get(File.join(HOST, CATEGORY))
 
-    render json: JSON(categ.body)
+    render json: JSON(categories.body)
   end
 
   def search
