@@ -1,9 +1,9 @@
 class ChuckController < ApplicationController
   HOST = 'https://api.chucknorris.io'.freeze
-  # RANDOM = '/jokes/random'.freeze
-  # CATEGORY = '/jokes/categories'.freeze
-  # SEARCH = '/jokes/search?query='.freeze
-  # BY_CATEGORY = '/jokes/random?category='.freeze
+  RANDOM = '/jokes/random'.freeze
+   CATEGORY = '/jokes/categories'.freeze
+   SEARCH = '/jokes/search?query='.freeze
+   BY_CATEGORY = '/jokes/random?category='.freeze
 
   def random
     jokes = Curl.get(File.join(HOST, RANDOM))
