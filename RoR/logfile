@@ -1,0 +1,91 @@
+2023-03-14 21:25:38.586 MSK [7998] LOG:  starting PostgreSQL 14.7 (Homebrew) on x86_64-pc-linux-gnu, compiled by gcc-11 (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0, 64-bit
+2023-03-14 21:25:38.586 MSK [7998] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-03-14 21:25:38.591 MSK [7998] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2023-03-14 21:25:38.596 MSK [7999] LOG:  database system was shut down at 2023-03-14 21:25:13 MSK
+2023-03-14 21:25:38.600 MSK [7998] LOG:  database system is ready to accept connections
+2023-03-14 21:26:51.009 MSK [8200] FATAL:  database "RoR_development" does not exist
+2023-03-14 21:26:51.541 MSK [8201] FATAL:  database "RoR_development" does not exist
+2023-03-14 21:29:38.929 MSK [8344] FATAL:  database "alex" does not exist
+2023-03-14 21:37:48.079 MSK [8974] FATAL:  role "ACER" does not exist
+2023-03-14 21:37:48.152 MSK [8975] FATAL:  role "ACER" does not exist
+2023-03-16 14:46:59.294 MSK [1717] LOG:  starting PostgreSQL 14.7 (Homebrew) on x86_64-pc-linux-gnu, compiled by gcc-11 (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0, 64-bit
+2023-03-16 14:46:59.295 MSK [1717] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-03-16 14:46:59.299 MSK [1717] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2023-03-16 14:46:59.308 MSK [1718] LOG:  database system was interrupted; last known up at 2023-03-14 21:32:35 MSK
+2023-03-16 14:46:59.554 MSK [1718] LOG:  database system was not properly shut down; automatic recovery in progress
+2023-03-16 14:46:59.559 MSK [1718] LOG:  redo starts at 0/172D7E0
+2023-03-16 14:46:59.559 MSK [1718] LOG:  invalid record length at 0/172D8C8: wanted 24, got 0
+2023-03-16 14:46:59.559 MSK [1718] LOG:  redo done at 0/172D890 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2023-03-16 14:46:59.579 MSK [1717] LOG:  database system is ready to accept connections
+2023-03-16 14:47:06.785 MSK [1726] FATAL:  database "alex" does not exist
+2023-03-16 14:47:19.153 MSK [1730] ERROR:  database "RoR_development" already exists
+2023-03-16 14:47:19.153 MSK [1730] STATEMENT:  CREATE DATABASE "RoR_development" ENCODING = 'unicode'
+2023-03-16 14:47:19.166 MSK [1731] ERROR:  database "RoR_test" already exists
+2023-03-16 14:47:19.166 MSK [1731] STATEMENT:  CREATE DATABASE "RoR_test" ENCODING = 'unicode'
+2023-03-16 14:54:33.323 MSK [1983] FATAL:  role "ACER" does not exist
+2023-03-16 14:54:33.378 MSK [1984] FATAL:  role "ACER" does not exist
+2023-03-16 14:55:02.417 MSK [2053] FATAL:  role "ACER" does not exist
+2023-03-16 14:55:02.471 MSK [2056] FATAL:  role "ACER" does not exist
+2023-03-16 14:55:33.426 MSK [2191] FATAL:  role "ACER" does not exist
+2023-03-16 14:55:33.467 MSK [2192] FATAL:  role "ACER" does not exist
+2023-03-16 15:07:00.422 MSK [2505] FATAL:  role "ACER" does not exist
+2023-03-16 15:07:00.465 MSK [2506] FATAL:  role "ACER" does not exist
+2023-03-16 15:07:13.576 MSK [2508] FATAL:  role "ACER" does not exist
+2023-03-16 15:07:13.625 MSK [2509] FATAL:  role "ACER" does not exist
+2023-03-16 15:11:10.257 MSK [2805] FATAL:  database "alex" does not exist
+2023-03-16 15:11:32.552 MSK [2808] FATAL:  database "alex" does not exist
+2023-03-16 15:12:03.978 MSK [2811] FATAL:  database "postgresql@14" does not exist
+2023-03-16 16:12:41.618 MSK [3886] FATAL:  role "ACER" does not exist
+2023-03-16 16:12:41.673 MSK [3887] FATAL:  role "ACER" does not exist
+2023-03-16 16:13:00.676 MSK [3889] FATAL:  role "ACER" does not exist
+2023-03-16 16:13:00.719 MSK [3890] FATAL:  role "ACER" does not exist
+2023-03-16 16:24:27.465 MSK [4123] FATAL:  role "ACER" does not exist
+2023-03-16 16:24:27.513 MSK [4124] FATAL:  role "ACER" does not exist
+2023-03-16 16:24:37.962 MSK [4126] FATAL:  role "ACER" does not exist
+2023-03-16 16:24:37.999 MSK [4127] FATAL:  role "ACER" does not exist
+2023-03-16 16:25:17.460 MSK [4131] FATAL:  role "ACER" does not exist
+2023-03-16 16:25:17.498 MSK [4132] FATAL:  role "ACER" does not exist
+2023-03-16 16:42:01.466 MSK [4382] FATAL:  role "ACER" does not exist
+2023-03-16 16:42:01.509 MSK [4383] FATAL:  role "ACER" does not exist
+2023-03-16 16:54:05.944 MSK [4571] FATAL:  role "ACER" does not exist
+2023-03-16 16:54:05.981 MSK [4572] FATAL:  role "ACER" does not exist
+2023-03-16 16:56:45.321 MSK [4580] FATAL:  role "ACER" does not exist
+2023-03-16 16:56:45.362 MSK [4581] FATAL:  role "ACER" does not exist
+2023-03-16 16:57:33.286 MSK [4585] FATAL:  role "ACER" does not exist
+2023-03-16 16:57:33.327 MSK [4586] FATAL:  role "ACER" does not exist
+2023-03-16 16:57:46.384 MSK [4589] FATAL:  role "ACER" does not exist
+2023-03-16 16:57:46.422 MSK [4590] FATAL:  role "ACER" does not exist
+2023-03-16 17:02:50.357 MSK [5329] FATAL:  database "alex" does not exist
+2023-03-16 17:07:17.423 MSK [5440] FATAL:  role "ACER" does not exist
+2023-03-16 17:07:17.475 MSK [5441] FATAL:  role "ACER" does not exist
+2023-03-16 17:08:12.470 MSK [5463] FATAL:  database "RoR" does not exist
+2023-03-16 17:39:57.785 MSK [6832] FATAL:  database "alex" does not exist
+2023-03-16 21:39:32.312 MSK [10609] FATAL:  database "alex" does not exist
+2023-03-16 21:40:31.293 MSK [10656] FATAL:  database "alex" does not exist
+2023-03-21 18:32:25.493 MSK [6607] LOG:  starting PostgreSQL 14.7 (Homebrew) on x86_64-pc-linux-gnu, compiled by gcc-11 (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0, 64-bit
+2023-03-21 18:32:25.495 MSK [6607] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-03-21 18:32:25.500 MSK [6607] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2023-03-21 18:32:25.511 MSK [6608] LOG:  database system was interrupted; last known up at 2023-03-16 17:12:02 MSK
+2023-03-21 18:32:25.835 MSK [6608] LOG:  database system was not properly shut down; automatic recovery in progress
+2023-03-21 18:32:25.839 MSK [6608] LOG:  redo starts at 0/17577A0
+2023-03-21 18:32:25.839 MSK [6608] LOG:  invalid record length at 0/1757888: wanted 24, got 0
+2023-03-21 18:32:25.839 MSK [6608] LOG:  redo done at 0/1757850 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2023-03-21 18:32:25.855 MSK [6607] LOG:  database system is ready to accept connections
+2023-03-27 23:13:46.532 MSK [1133] LOG:  starting PostgreSQL 14.7 (Homebrew) on x86_64-pc-linux-gnu, compiled by gcc-11 (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0, 64-bit
+2023-03-27 23:13:46.532 MSK [1133] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-03-27 23:13:46.537 MSK [1133] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2023-03-27 23:13:46.546 MSK [1134] LOG:  database system was interrupted; last known up at 2023-03-21 18:37:32 MSK
+2023-03-27 23:13:46.823 MSK [1134] LOG:  database system was not properly shut down; automatic recovery in progress
+2023-03-27 23:13:46.828 MSK [1134] LOG:  redo starts at 0/17A4680
+2023-03-27 23:13:46.828 MSK [1134] LOG:  invalid record length at 0/17A4768: wanted 24, got 0
+2023-03-27 23:13:46.828 MSK [1134] LOG:  redo done at 0/17A4730 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2023-03-27 23:13:46.848 MSK [1133] LOG:  database system is ready to accept connections
+2023-03-30 13:17:29.263 MSK [346] LOG:  starting PostgreSQL 14.7 (Homebrew) on x86_64-pc-linux-gnu, compiled by gcc-11 (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0, 64-bit
+2023-03-30 13:17:29.263 MSK [346] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-03-30 13:17:29.268 MSK [346] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2023-03-30 13:17:29.278 MSK [347] LOG:  database system was interrupted; last known up at 2023-03-28 00:13:49 MSK
+2023-03-30 13:17:29.554 MSK [347] LOG:  database system was not properly shut down; automatic recovery in progress
+2023-03-30 13:17:29.558 MSK [347] LOG:  redo starts at 0/17D1560
+2023-03-30 13:17:29.558 MSK [347] LOG:  invalid record length at 0/17D1648: wanted 24, got 0
+2023-03-30 13:17:29.558 MSK [347] LOG:  redo done at 0/17D1610 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2023-03-30 13:17:29.575 MSK [346] LOG:  database system is ready to accept connections

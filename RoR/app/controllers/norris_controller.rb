@@ -1,5 +1,5 @@
 class ChuckController < ApplicationController
-  # #HOST = 'https://api.chucknorris.io'.freeze
+  HOST = 'https://api.chucknorris.io'.freeze
   # RANDOM = '/jokes/random'.freeze
   # CATEGORY = '/jokes/categories'.freeze
   # SEARCH = '/jokes/search?query='.freeze
